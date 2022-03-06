@@ -10,6 +10,7 @@ public class BinarySearchNoRecur{
 
     public static int binarySearch(int[] arr, int target) {
         int add;
+        int add1;
         int left = 0;
         int right = arr.length-1;
         while (left <= right) {
